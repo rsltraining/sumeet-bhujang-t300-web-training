@@ -1,0 +1,23 @@
+{
+  "name": "jest-assignment",
+  "version": "1.0.0",
+  "description": "Jest tests for the fetchData and getUserData assignment functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/*.test.js",
+      "**/*.test.mjs"
+    ]
+  }
+}
